@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 //middleware
 app.use(
   cors({
-    origin: "https://trivid-frontend-lemn.vercel.app", // Frontend URL
+    origin: "https://trivid-frontend-ovvd.vercel.app", // Frontend URL
     credentials: true, // Allow cookies and credentials
   })
 );
